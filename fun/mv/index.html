@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-cn" style="width: 100%; height: 100%; overflow: hidden;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>你们好,我是松子！</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="手持一把遥纸扇">
+<meta name="description" content="胜过百万雄兵来">
+<meta name="full-screen" content="yes">
+<meta name="x5-fullscreen" content="true">
+<link rel="stylesheet" href="http://www.bootcss.com/p/buttons/css/buttons.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">body{overflow-x:hidden;overflow-y:hidden;}</style>
+<meta name="description" content="LET IT BE !!!">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{background-color:#000000;}.covervid-wrapper{position:absolute;top:0;left:0;width:100%;height:100%;}.github-link{position:absolute;rgba(255,255,255,0.13) top: 20px;right:20px;opacity:0.15;-webkit-transition:0.4s all ease;-moz-transition:0.4s all ease;transition:0.4s all ease;}.github-link:hover{opacity:0.4;}.fd{position:absolute;top:30%;color:rgba(255,255,255,0.78);font-size:40px;width:100%;text-align:center;font-family:Gotham,"Helvetica Neue",Helvetica,shojo,sans-serif;}.fd p{font-size:14px;}@font-face{font-family:'shojo';src:url('shojo.ttf') format('truetype');}</style>
+<style type="text/css"><!--
+a:link {
+ text-decoration: none;
+}
+a:visited {
+ text-decoration: none;
+}
+a:hover {
+ text-decoration: none;
+}
+a:active {
+ text-decoration: none;
+}
+--></style>
+<style>.qq{width:100px;height:100px;border-radius:100px}</style>
+</head>
+<body style="width: 100%; height: 100%; overflow: hidden;" onselectstart="return false">
+<div class="covervid-wrapper">
+<video class="covervid-video" autoplay loop>
+<source src="http://221.228.226.5/3/q/b/f/s/qbfsaohtqvtspmvgyqfvkzxzcvgcrp/he.yinyuetai.com/8ABF01398CC629DAE4F7E8D971C7FA28.flv" type="video/mp4"> 
+ 
+</video>
+<div style="position:absolute;top:0;right:50px;height:100px;width:50px">
+<a target="_blank" href="http://browser.iyu.pub" style="color:#FFF;font-family:'shojo'; font-weight:bold;">
+<P>TingBrowser<P/>
+</a>
+</div>
+<div style="position:absolute;top:0;right:130px;height:100px;width:50px">
+<a target="_blank" href="http://blog.iyu.pub/guestbook" style="color:#FFF;font-family:'shojo'; font-weight:bold;">
+<P>留言<P/>
+</a>
+</div>
+<div style="position:absolute;top:0;right:210px;height:100px;width:50px">
+<a target="_blank" href="http://blog.iyu.pub/ " style="color:#FFF;font-family:'shojo'; font-weight:bold;">
+<P>BLOG<P/>
+</a>
+</div>
+<div style="position:absolute;top:0;right:290px;height:100px;width:50px">
+<a style="color:#FFF;font-family:'shojo'; font-weight:bold;">
+<P>HOME<P/>
+</a>
+</div>
+<div class="fd">
+<center>
+<br>
+</center>
+<a onclick="kaishi()"> <span style="font-family:'shojo'; font-weight:bold;">松子哥哥</span>
+<br>
+<br><br>
+<p>
+<a href="https://twitter.com/TingBrowser" target="view_window" class="button button-glow button-border button-rounded button-highlight">点击成为松子的粉丝吧</a>
+</p>
+<a href="https://www.facebook.com/TingBrowser" target="_blank">
+<button class="button button-glow button-border button-circle button-action button-jumbo">
+<i class="fa fa-thumbs-up"></i>
+</button>
+</div>
+<div style="position:absolute;top:90%;right:50%;height:10px;width:600px"><a href="http://www.miitbeian.gov.cn" target="_black" style="color:#FFF;font-family:'shojo'; font-weight:bold;"><P><font face="微软雅黑">© CopyRight 2015-2017, IYU.PUB <br><P/></a></div>    
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/covervid.js"></script>
+<script type="text/javascript">
+			$('.covervid-video').coverVid(1920, 1080);
+		</script>
+<script src="js/jquery.js"></script>
+<script src="js/acgface.scrollPage.min.js"></script>
+<script src="js/index.min.js"></script>
+<script>  
+    function kaishi()  
+    {  
+  
+  
+        var docElm = document.documentElement;  
+        //W3C   
+        if (docElm.requestFullscreen) {  
+            docElm.requestFullscreen();  
+        }  
+            //FireFox   
+        else if (docElm.mozRequestFullScreen) {  
+            docElm.mozRequestFullScreen();  
+        }  
+            //Chrome等   
+        else if (docElm.webkitRequestFullScreen) {  
+            docElm.webkitRequestFullScreen();  
+        }  
+            //IE11   
+        else if (elem.msRequestFullscreen) {  
+            elem.msRequestFullscreen();  
+        }  
+    }  
+  
+    function guanbi() {  
+  
+  
+        if (document.exitFullscreen) {  
+            document.exitFullscreen();  
+        }  
+        else if (document.mozCancelFullScreen) {  
+            document.mozCancelFullScreen();  
+        }  
+        else if (document.webkitCancelFullScreen) {  
+            document.webkitCancelFullScreen();  
+        }  
+        else if (document.msExitFullscreen) {  
+            document.msExitFullscreen();  
+        }  
+    }  
+  
+  
+  
+  
+    document.addEventListener("fullscreenchange", function () {  
+          
+        fullscreenState.innerHTML = (document.fullscreen) ? "" : "not ";  
+    }, false);  
+     
+  
+      
+    document.addEventListener("mozfullscreenchange", function () {  
+         
+        fullscreenState.innerHTML = (document.mozFullScreen) ? "" : "not ";  
+    }, false);  
+      
+  
+     
+    document.addEventListener("webkitfullscreenchange", function () {  
+          
+        fullscreenState.innerHTML = (document.webkitIsFullScreen) ? "" : "not ";  
+    }, false);  
+      
+    document.addEventListener("msfullscreenchange", function () {  
+          
+        fullscreenState.innerHTML = (document.msFullscreenElement) ? "" : "not ";  
+    }, false);  
+  
+  
+  
+  
+</script>
+</body></html>

@@ -1,0 +1,33 @@
+
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+ 
+<title>萌</title>
+</head>
+<body>
+<div id="wocao" title="我好萌~我好萌~我好萌~">
+</div>
+<style>*{padding:0;margin:0;}h1{position:absolute;font-size:100px;font-weight:bolder;}body,html{height:100%;width:100%;overflow:hidden;}</style>
+<script>
+setInterval("moe()",12.450)
+function moe(){
+	var positionX = random(1,$(window).width())-50;
+	var positionY = random(1,$(window).height())-50;
+	var colorR = random(0,255);
+	var colorG = random(0,255);
+	var colorB = random(0,255);
+	var color = "rgb("+colorR+","+colorG+","+colorB+")";
+
+	var item = "<h1 style='top:"+positionY+"px;left:"+positionX+"px;color:"+color+"'>萌</h1>";
+	$("#wocao").append(item);
+}
+function random(min,max){return Math.floor(min+Math.random()*(max-min));}
+</script>
+</body>
+</html>
