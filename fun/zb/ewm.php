@@ -1,1 +1,0 @@
-﻿<img src="http://www.iyu.pub/html/zb/gg.jpg">
